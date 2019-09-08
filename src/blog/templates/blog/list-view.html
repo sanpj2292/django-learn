@@ -6,6 +6,11 @@
 </head>
 <body>
     <h1>Hello World!</h1>
+    {% for obj in object_list %}
+        <li>
+            {{ obj.id}} --> {{ obj.title }}
+        </li>
+    {% endfor %}
 
 </body>
 </html>
